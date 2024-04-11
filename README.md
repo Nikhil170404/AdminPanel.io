@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyA1S8iHwDNl8qvl3ClLVBXpW3QNltrVIRg",
+  authDomain: "findmybed-6f97a.firebaseapp.com",
+  projectId: "findmybed-6f97a",
+  storageBucket: "findmybed-6f97a.appspot.com",
+  messagingSenderId: "521085721021",
+  appId: "1:521085721021:web:7fb1796d69261b23d75ad4",
+  measurementId: "G-5R33XF3D4W",
+  
+  databaseURL: "gs://findmybed-6f97a.appspot.com",
+  
+};

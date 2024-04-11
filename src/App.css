@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Common styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  font-size: 16px;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+h4 {
+  font-size: 14px;
+  margin-top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* AdminPanel component styles */
+.admin-panel {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel h1 {
+  color: #333;
+}
+
+.admin-panel h2 {
+  color: #444;
+}
+
+.admin-panel table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-panel th,
+.admin-panel td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.admin-panel th {
+  background-color: #f2f2f2;
+}
+
+.admin-panel tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.admin-panel tr:hover {
+  background-color: #ddd;
+}
+
+.admin-panel input[type="text"],
+.admin-panel input[type="number"] {
+  width: calc(100% - 20px);
+}
+
+.admin-panel button {
+  width: calc(100% - 20px);
+}
+
+/* SignIn component styles */
+.sign-in {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in h1 {
+  color: #333;
+}
+
+.sign-in input[type="email"],
+.sign-in input[type="password"] {
+  width: calc(100% - 20px);
+}
+
+.sign-in button {
+  width: calc(100% - 20px);
 }
